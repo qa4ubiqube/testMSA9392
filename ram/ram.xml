@@ -1,0 +1,14 @@
+<ObjectDefinition>
+  <variables frozen="0"/>
+  <example/>
+  <information>
+    <icon/>
+    <description>ram</description>
+    <displayField>service_id</displayField>
+    <serviceTaskType>php</serviceTaskType>
+    <order>10000</order>
+    <visibility>0</visibility>
+    <name>ram</name>
+    <group/>
+  </information>
+</ObjectDefinition>
