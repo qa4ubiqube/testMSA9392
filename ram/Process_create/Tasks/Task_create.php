@@ -5,6 +5,7 @@
  */
 require_once '/opt/fmc_repository/Process/Reference/Common/common.php';
 
+
 /**
  * List all the parameters required by the task
  */
@@ -19,8 +20,31 @@ function list_args()
    *
    * Add as many variables as needed
    */
-  create_var_def('var_name', 'String');
-  create_var_def('var_name2', 'Integer');
+  create_var_def('deeper.0.object.0.string', 'String');
+  create_var_def('deeper.0.object.0.int', 'Integer');
+  create_var_def('deeper.0.bool', 'Boolean');
+  create_var_def('deeper.0.object.0.more.0.string', 'String');
+  create_var_def('deeper.0.object.0.more.0.bool', 'Boolean');
+  create_var_def('this.0.deep', 'String');
+  create_var_def('this.0.bool', 'Boolean');
+  create_var_def('this.0.pw');
+  create_var_def('String', 'String');
+  create_var_def('Boolean');
+  create_var_def('Integer', 'String');
+  create_var_def('Password', 'Password');
+  create_var_def('IpAddress', 'IpAddress');
+  create_var_def('IpMask', 'IpMask');
+  create_var_def('Ipv6Address', 'Ipv6Address');
+  create_var_def('Composite', 'Composite');
+  create_var_def('OBMFRef', 'OBMFRef');
+  create_var_def('Device', 'Device');
+  create_var_def('Link', 'Link');
+  create_var_def('File', 'File');
+  create_var_def('Customer', 'Customer');
+  create_var_def('AutoIncrement', 'AutoIncrement');
+  create_var_def('ServiceRef', 'ServiceRef');
+  create_var_def('this.is.table.0.string', 'String');
+  create_var_def('this.is.table.0.boolean', 'Boolean');
 }
 
 /**
@@ -35,7 +59,6 @@ function list_args()
  * For ex. if (empty($context['var_name']) || (empty($context['var_name2']) && empty($context['var_name3']))) => FAIL [Don't proceed]
  * Such cases need to be handled as per the Task logic
  */
-check_mandatory_param('var_name');
 
 /**
  * $context => Service Context variable per Service Instance
@@ -46,8 +69,6 @@ check_mandatory_param('var_name');
  *
  * ENTER YOUR CODE HERE
  */
-$context['var_name2'] = $context['var_name2'] + 1;
-
 /**
  * Format of the Task response :
  * JSON format : {"wo_status":"status","wo_comment":"comment","wo_newparams":{json_body}}
@@ -66,11 +87,6 @@ $context['var_name2'] = $context['var_name2'] + 1;
  * The response "$ret" should be echoed from the Task "echo $ret" which is read by Orchestration Engine
  * In case of FAILURE/WARNING, the Task can be Terminated by calling "exit" as per Logic
  */
-if ($context['var_name2'] % 2 === 0) {
-	$ret = prepare_json_response(FAILED, 'Task Failed', $context, true);
-	echo "$ret\n";
-	exit;
-}
 
 /**
  * End of the task (choose one)
