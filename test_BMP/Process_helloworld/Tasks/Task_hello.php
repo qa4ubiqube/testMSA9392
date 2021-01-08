@@ -29,7 +29,7 @@ require_once '/opt/fmc_repository/Process/Reference/Common/common.php';
  *
  * ENTER YOUR CODE HERE
  */
-var_name2= 12;
+$var_name2= 12;
 
 /**
  * Format of the Task response :
@@ -49,7 +49,7 @@ var_name2= 12;
  * The response "$ret" should be echoed from the Task "echo $ret" which is read by Orchestration Engine
  * In case of FAILURE/WARNING, the Task can be Terminated by calling "exit" as per Logic
  */
-if (var_name2 % 2 === 0) {
+if ($var_name2 % 2 == 0) {
 	$ret = prepare_json_response(FAILED, 'Task Failed', $context, true);
 	echo "$ret\n";
 	exit;
