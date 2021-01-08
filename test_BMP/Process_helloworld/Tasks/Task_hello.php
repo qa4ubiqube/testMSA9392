@@ -5,23 +5,7 @@
  */
 require_once '/opt/fmc_repository/Process/Reference/Common/common.php';
 
-/**
- * List all the parameters required by the task
- */
-function list_args()
-{
-  /**
-   * You can use var_name convention for your variables
-   * They will display automaticaly as "Var Name"
-   * The allowed types are:
-   *    'String', 'Boolean', 'Integer', 'Password', 'IpAddress',
-   *    'IpMask', 'Ipv6Address', 'Composite', 'OBMFRef', 'Device'
-   *
-   * Add as many variables as needed
-   */
-  create_var_def('var_name', 'String');
-  create_var_def('var_name2', 'Integer');
-}
+
 
 /**
  * A function to check whether all the mandatory parameters are present in user-input
@@ -35,7 +19,6 @@ function list_args()
  * For ex. if (empty($context['var_name']) || (empty($context['var_name2']) && empty($context['var_name3']))) => FAIL [Don't proceed]
  * Such cases need to be handled as per the Task logic
  */
-check_mandatory_param('var_name');
 
 /**
  * $context => Service Context variable per Service Instance
@@ -46,7 +29,7 @@ check_mandatory_param('var_name');
  *
  * ENTER YOUR CODE HERE
  */
-$context['var_name2'] = $context['var_name2'] + 1;
+var_name2= 12;
 
 /**
  * Format of the Task response :
@@ -66,7 +49,7 @@ $context['var_name2'] = $context['var_name2'] + 1;
  * The response "$ret" should be echoed from the Task "echo $ret" which is read by Orchestration Engine
  * In case of FAILURE/WARNING, the Task can be Terminated by calling "exit" as per Logic
  */
-if ($context['var_name2'] % 2 === 0) {
+if (var_name2 % 2 === 0) {
 	$ret = prepare_json_response(FAILED, 'Task Failed', $context, true);
 	echo "$ret\n";
 	exit;
