@@ -27,6 +27,16 @@
       <displayName>t2</displayName>
     </task>
   </process>
+  <process name="Process/workflows/ramm/Process_アルノ">
+    <displayName>アルノ</displayName>
+    <type>CREATE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+    <task name="Task_アルノーテストアルノーテスト.php">
+      <processPath>/opt/fmc_repository/Process/workflows/ramm/Process_アルノ/Tasks</processPath>
+      <displayName>アルノーテストアルノーテスト</displayName>
+    </task>
+  </process>
   <information>
     <icon/>
     <description>アルノーテスト</description>
@@ -34,7 +44,7 @@
     <serviceTaskType>php</serviceTaskType>
     <order>10000</order>
     <visibility>5</visibility>
-    <name>ramm</name>
+    <name>rammアルノーテスト</name>
     <group/>
   </information>
 </ObjectDefinition>
