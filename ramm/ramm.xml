@@ -7,6 +7,7 @@
     <displayName>t1</displayName>
     <type>CREATE</type>
     <visibility>5</visibility>
+    <allowSchedule/>
     <task name="Task_t1.php">
       <processPath>/opt/fmc_repository/Process/workflows/ramm/Process_t1/Tasks</processPath>
       <displayName>t1</displayName>
@@ -20,6 +21,7 @@
     <displayName>t2</displayName>
     <type>UPDATE</type>
     <visibility>5</visibility>
+    <allowSchedule/>
     <task name="Task_t2.php">
       <processPath>/opt/fmc_repository/Process/workflows/ramm/Process_t2/Tasks</processPath>
       <displayName>t2</displayName>
@@ -27,11 +29,11 @@
   </process>
   <information>
     <icon/>
-    <description/>
+    <description>アルノーテスト</description>
     <displayField>service_id</displayField>
     <serviceTaskType>php</serviceTaskType>
     <order>10000</order>
-    <visibility>0</visibility>
+    <visibility>5</visibility>
     <name>ramm</name>
     <group/>
   </information>
