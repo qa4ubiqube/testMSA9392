@@ -19,7 +19,7 @@ function list_args()
    *
    * Add as many variables as needed
    */
-  create_var_def('var_name', 'String');
+  create_var_def('a', 'String');
   create_var_def('var_name2', 'Integer');
 }
 
