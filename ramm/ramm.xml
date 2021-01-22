@@ -40,7 +40,7 @@
   </process>
   <information>
     <icon/>
-    <description>アルノーテスト</description>
+    <description>aaaa</description>
     <displayField>service_id</displayField>
     <serviceTaskType>php</serviceTaskType>
     <order>10000</order>
