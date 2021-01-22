@@ -5,6 +5,13 @@
  */
 require_once '/opt/fmc_repository/Process/Reference/Common/common.php';
 
+
+
+/**
+ * 日本語コメント
+ */
+
+
 /**
  * List all the parameters required by the task
  */
