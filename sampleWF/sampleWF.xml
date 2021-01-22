@@ -13,10 +13,24 @@
       <processPath>/opt/fmc_repository/Process/workflows/sampleWF/Process_Proc/Tasks</processPath>
       <displayName>t1</displayName>
     </task>
+    <task name="Task_t2.php">
+      <processPath>/opt/fmc_repository/Process/workflows/sampleWF/Process_Proc/Tasks</processPath>
+      <displayName>t2</displayName>
+    </task>
+    <task name="Task_ttest_.php">
+      <processPath>/opt/fmc_repository/Process/workflows/sampleWF/Process_Proc/Tasks</processPath>
+      <displayName>ttest&amp;</displayName>
+    </task>
   </process>
   <process name="Process/workflows/sampleWF/Process_del">
     <displayName>del</displayName>
     <type>DELETE</type>
+    <visibility>5</visibility>
+    <allowSchedule/>
+  </process>
+  <process name="Process/workflows/sampleWF/Process_tst_">
+    <displayName>tst&amp;d</displayName>
+    <type>CREATE</type>
     <visibility>5</visibility>
     <allowSchedule/>
   </process>
