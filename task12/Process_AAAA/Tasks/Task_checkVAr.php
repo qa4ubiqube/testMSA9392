@@ -19,7 +19,7 @@ function list_args()
    *
    * Add as many variables as needed
    */
-  create_var_def('check', 'Integer');
+  create_var_def('check', 'Boolean');
   create_var_def('compo', 'Composite');
 }
 
