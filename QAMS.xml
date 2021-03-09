@@ -2,7 +2,7 @@
   <information>
     <icon>none</icon>
     <description/>
-    <displayField>object_id</displayField>
+    <displayField>view_name</displayField>
     <serviceTaskType/>
     <order>0</order>
     <visibility>5</visibility>
