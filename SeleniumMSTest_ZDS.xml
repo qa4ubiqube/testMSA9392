@@ -37,7 +37,9 @@
       <lines/>
     </parser>
   </command>
-  <command name="CREATE"/>
+  <command name="CREATE">
+    <operation>touch ./ZDS/{$params.object_id}</operation>
+  </command>
   <command name="READ"/>
   <command name="UPDATE"/>
   <command name="CONSTRAINT"/>
