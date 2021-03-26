@@ -38,7 +38,7 @@
         <xpath/>
       </section>
       <section>
-        <regexp>@^access-list\s+(?&lt;object_id&gt;.*)\s+extended\s+(@</regexp>
+        <regexp>@^@</regexp>
         <xpath/>
       </section>
       <section>
@@ -46,7 +46,7 @@
         <xpath/>
       </section>
       <section>
-        <regexp>@^(?&lt;mod&gt;\S+)\s+(?&lt;lnk&gt;\S+)\s+(?&lt;owner&gt;\S+)\s+(@</regexp>
+        <regexp>@^@</regexp>
         <xpath/>
       </section>
       <section>
@@ -54,7 +54,31 @@
         <xpath/>
       </section>
       <section>
-        <regexp>@0123456789012345678901234567890123456789012345@</regexp>
+        <regexp>@0@</regexp>
+        <xpath/>
+      </section>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath/>
+      </section>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath/>
+      </section>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath/>
+      </section>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath/>
+      </section>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath/>
+      </section>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
         <xpath/>
       </section>
       <lines>
@@ -70,7 +94,22 @@
         </line>
         <line>
           <array/>
-          <regexp>@&lt;stack_status&gt;(?&lt;stack_status&gt;.*)&lt;/stack_statu@</regexp>
+          <regexp>@&lt;@</regexp>
+          <xpath/>
+        </line>
+        <line>
+          <array/>
+          <regexp>@^\s \s*$@</regexp>
+          <xpath/>
+        </line>
+        <line>
+          <array/>
+          <regexp>@^\s \s*$@</regexp>
+          <xpath/>
+        </line>
+        <line>
+          <array/>
+          <regexp>@^\s \s*$@</regexp>
           <xpath/>
         </line>
         <ignore>
@@ -81,6 +120,15 @@
         </ignore>
         <ignore>
           <regexp>@@^!.*$@@</regexp>
+        </ignore>
+        <ignore>
+          <regexp>@^\s \s*$@</regexp>
+        </ignore>
+        <ignore>
+          <regexp>@^\s \s*$@</regexp>
+        </ignore>
+        <ignore>
+          <regexp>@^\s \s*$@</regexp>
         </ignore>
       </lines>
     </parser>
