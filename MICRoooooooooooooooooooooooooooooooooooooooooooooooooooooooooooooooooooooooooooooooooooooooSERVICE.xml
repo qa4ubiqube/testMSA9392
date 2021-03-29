@@ -14,7 +14,7 @@
     <importIfMandatoryPresent>false</importIfMandatoryPresent>
     <maxInstances>0</maxInstances>
     <relatedObjects/>
-    <name>MICRoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooSERVICE</name>
+    <name>MICRoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooSERVICE</name>
     <group>Default</group>
     <importonce>false</importonce>
     <importrank>0</importrank>
