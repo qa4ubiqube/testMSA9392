@@ -45,7 +45,12 @@
   <command name="UPDATE"/>
   <command name="CONSTRAINT"/>
   <command name="CREATE">
-    <operation></operation>
+    <operation>a
+
+
+
+
+b</operation>
   </command>
   <command name="DELETE"/>
   <command name="READ"/>
