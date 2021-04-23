@@ -43,9 +43,15 @@
 pwd</operation>
   </command>
   <command name="READ">
-    <operation>read;
+    <operation>read var1 var2;
 
-read;</operation>
+ls;
+
+
+
+
+
+read var3;</operation>
   </command>
   <command name="UPDATE"/>
   <command name="CONSTRAINT"/>
