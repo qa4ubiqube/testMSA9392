@@ -55,6 +55,8 @@ read var3;</operation>
   </command>
   <command name="UPDATE"/>
   <command name="CONSTRAINT"/>
-  <command name="DELETE"/>
+  <command name="DELETE">
+    <operation>rm file1</operation>
+  </command>
   <command name="LIST"/>
 </ObjectDefinition>
