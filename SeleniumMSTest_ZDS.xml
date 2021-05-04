@@ -41,7 +41,9 @@
     <operation>touch ./ZDS/{$params.object_id}</operation>
   </command>
   <command name="READ"/>
-  <command name="UPDATE"/>
+  <command name="UPDATE">
+    <operation>{$params.object_id}ZDS/{$params.object_id}</operation>
+  </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
   <command name="LIST"/>
