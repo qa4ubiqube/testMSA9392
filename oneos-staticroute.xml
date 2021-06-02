@@ -1,0 +1,416 @@
+<ObjectDefinition>
+  <information>
+    <icon>none</icon>
+    <description>oneos-staticroute</description>
+    <displayField>object_id</displayField>
+    <serviceTaskType/>
+    <order>0</order>
+    <visibility>5</visibility>
+    <configType>netconf</configType>
+    <createTemplateId/>
+    <createTemplateObject/>
+    <defaultDisplay>false</defaultDisplay>
+    <dynamic>false</dynamic>
+    <importIfMandatoryPresent>false</importIfMandatoryPresent>
+    <maxInstances>0</maxInstances>
+    <relatedObjects/>
+    <name>oneos-staticroute</name>
+    <group>Default</group>
+    <importonce>false</importonce>
+    <importrank>0</importrank>
+    <reorderinstances>false</reorderinstances>
+    <sortascending>false</sortascending>
+    <sortauto>false</sortauto>
+    <sortnumerical>false</sortnumerical>
+    <sortvariable>param._order</sortvariable>
+  </information>
+  <variables frozen="0">
+    <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_local_vrf" name="params.system_ip_local_vrf" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_local_vrf" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_prefix" name="params.system_ip_route_ip-route-if-gw-list_prefix" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_prefix" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_mask" name="params.system_ip_route_ip-route-if-gw-list_mask" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_mask" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_ifname" name="params.system_ip_route_ip-route-if-gw-list_ifname" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_ifname" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_gateway" name="params.system_ip_route_ip-route-if-gw-list_gateway" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_gateway" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_name" name="params.system_ip_route_ip-route-if-gw-list_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_tag" name="params.system_ip_route_ip-route-if-gw-list_tag" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_tag" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_track" name="params.system_ip_route_ip-route-if-gw-list_track" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_track" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-if-gw-list_permanent" name="params.system_ip_route_ip-route-if-gw-list_permanent" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-if-gw-list_permanent" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-list_prefix" name="params.system_ip_route_ip-route-list_prefix" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-list_prefix" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-list_mask" name="params.system_ip_route_ip-route-list_mask" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-list_mask" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-list_gateway" name="params.system_ip_route_ip-route-list_gateway" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-list_gateway" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-list_name" name="params.system_ip_route_ip-route-list_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-list_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-list_tag" name="params.system_ip_route_ip-route-list_tag" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-list_tag" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-list_track" name="params.system_ip_route_ip-route-list_track" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-list_track" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-list_permanent" name="params.system_ip_route_ip-route-list_permanent" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-list_permanent" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-dhcp-list_prefix" name="params.system_ip_route_ip-route-dhcp-list_prefix" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-dhcp-list_prefix" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-dhcp-list_mask" name="params.system_ip_route_ip-route-dhcp-list_mask" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-dhcp-list_mask" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-dhcp-list_gateway" name="params.system_ip_route_ip-route-dhcp-list_gateway" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-dhcp-list_gateway" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_ip-route-dhcp-list_name" name="params.system_ip_route_ip-route-dhcp-list_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_ip-route-dhcp-list_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_name" name="params.system_ip_route_vrf_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_prefix" name="params.system_ip_route_vrf_ip-route-if-gw-list_prefix" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_prefix" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_mask" name="params.system_ip_route_vrf_ip-route-if-gw-list_mask" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_mask" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_ifname" name="params.system_ip_route_vrf_ip-route-if-gw-list_ifname" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_ifname" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_gateway" name="params.system_ip_route_vrf_ip-route-if-gw-list_gateway" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_gateway" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_name" name="params.system_ip_route_vrf_ip-route-if-gw-list_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_tag" name="params.system_ip_route_vrf_ip-route-if-gw-list_tag" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_tag" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_track" name="params.system_ip_route_vrf_ip-route-if-gw-list_track" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_track" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-if-gw-list_permanent" name="params.system_ip_route_vrf_ip-route-if-gw-list_permanent" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-if-gw-list_permanent" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-list_prefix" name="params.system_ip_route_vrf_ip-route-list_prefix" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-list_prefix" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-list_mask" name="params.system_ip_route_vrf_ip-route-list_mask" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-list_mask" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-list_gateway" name="params.system_ip_route_vrf_ip-route-list_gateway" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-list_gateway" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-list_name" name="params.system_ip_route_vrf_ip-route-list_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-list_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-list_tag" name="params.system_ip_route_vrf_ip-route-list_tag" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-list_tag" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-list_track" name="params.system_ip_route_vrf_ip-route-list_track" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-list_track" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-list_permanent" name="params.system_ip_route_vrf_ip-route-list_permanent" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-list_permanent" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-dhcp-list_prefix" name="params.system_ip_route_vrf_ip-route-dhcp-list_prefix" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-dhcp-list_prefix" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-dhcp-list_mask" name="params.system_ip_route_vrf_ip-route-dhcp-list_mask" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-dhcp-list_mask" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-dhcp-list_gateway" name="params.system_ip_route_vrf_ip-route-dhcp-list_gateway" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-dhcp-list_gateway" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_route_vrf_ip-route-dhcp-list_name" name="params.system_ip_route_vrf_ip-route-dhcp-list_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_route_vrf_ip-route-dhcp-list_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_vrf_name" name="params.system_ip_vrf_name" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_vrf_name" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_forward-protocol_udp_port" name="params.system_ip_forward-protocol_udp_port" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_forward-protocol_udp_port" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_forward-protocol_vrf_vrfname" name="params.system_ip_forward-protocol_vrf_vrfname" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_forward-protocol_vrf_vrfname" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ip_forward-protocol_vrf_udp_port" name="params.system_ip_forward-protocol_vrf_udp_port" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ip_forward-protocol_vrf_udp_port" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ipv6_local_vrf" name="params.system_ipv6_local_vrf" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ipv6_local_vrf" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_ethernet" name="params.system_ethernet" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_ethernet" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_default_ip" name="params.system_default_ip" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_default_ip" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_default_ipv6" name="params.system_default_ipv6" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_default_ipv6" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_bind" name="params.system_bind" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_bind" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_interface" name="params.system_interface" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_interface" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_config-expert" name="params.system_config-expert" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_config-expert" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_logging" name="params.system_logging" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_logging" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_no_ip_forward-protocol_udp_port" name="params.system_no_ip_forward-protocol_udp_port" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_no_ip_forward-protocol_udp_port" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_no_ip_forward-protocol_vrf_vrfname" name="params.system_no_ip_forward-protocol_vrf_vrfname" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_no_ip_forward-protocol_vrf_vrfname" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_no_ip_forward-protocol_vrf_udp_port" name="params.system_no_ip_forward-protocol_vrf_udp_port" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_no_ip_forward-protocol_vrf_udp_port" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_historical-stats_align-to-rtc" name="params.system_historical-stats_align-to-rtc" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_historical-stats_align-to-rtc" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="system_historical-stats_display-suppress-current-interval" name="params.system_historical-stats_display-suppress-current-interval" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" localVarNameMatch="" remoteVarNameMatch="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="system_historical-stats_display-suppress-current-interval" isMandatory="false" isUserLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+  </variables>
+  <example>
+    <content>&lt;system xmlns=&quot;http://oneaccess-net.com/oneos/glob&quot;&gt;
+    &lt;ip&gt;
+      &lt;local&gt;
+        &lt;vrf&gt;{$params.system_ip_local_vrf}&lt;/vrf&gt;
+      &lt;/local&gt;
+      &lt;route xmlns=&quot;http://oneaccess-net.com/oneos/routing/route&quot;&gt;
+        &lt;ip-route-if-gw-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-if-gw-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-if-gw-list_mask}&lt;/mask&gt;
+          &lt;ifname&gt;{$params.system_ip_route_ip-route-if-gw-list_ifname}&lt;/ifname&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-if-gw-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-if-gw-list_name}&lt;/name&gt;
+          &lt;tag&gt;{$params.system_ip_route_ip-route-if-gw-list_tag}&lt;/tag&gt;
+          &lt;track&gt;{$params.system_ip_route_ip-route-if-gw-list_track}&lt;/track&gt;
+          &lt;permanent&gt;{$params.system_ip_route_ip-route-if-gw-list_permanent}&lt;/permanent&gt;
+        &lt;/ip-route-if-gw-list&gt;
+        &lt;ip-route-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-list_mask}&lt;/mask&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-list_name}&lt;/name&gt;
+          &lt;tag&gt;{$params.system_ip_route_ip-route-list_tag}&lt;/tag&gt;
+          &lt;track&gt;{$params.system_ip_route_ip-route-list_track}&lt;/track&gt;
+          &lt;permanent&gt;{$params.system_ip_route_ip-route-list_permanent}&lt;/permanent&gt;&lt;/ip-route-list&gt;
+        &lt;ip-route-dhcp-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-dhcp-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-dhcp-list_mask}&lt;/mask&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-dhcp-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-dhcp-list_name}&lt;/name&gt;
+        &lt;/ip-route-dhcp-list&gt;
+        &lt;vrf xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;&lt;name&gt;{$params.system_ip_route_vrf_name}&lt;/name&gt;
+          &lt;ip-route-if-gw-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_mask}&lt;/mask&gt;
+            &lt;ifname&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_ifname}&lt;/ifname&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_name}&lt;/name&gt;&lt;tag&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_tag}&lt;/tag&gt;
+            &lt;track&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_track}&lt;/track&gt;
+            &lt;permanent&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_permanent}&lt;/permanent&gt;
+          &lt;/ip-route-if-gw-list&gt;
+          &lt;ip-route-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-list_mask}&lt;/mask&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-list_name}&lt;/name&gt;
+            &lt;tag&gt;{$params.system_ip_route_vrf_ip-route-list_tag}&lt;/tag&gt;
+            &lt;track&gt;{$params.system_ip_route_vrf_ip-route-list_track}&lt;/track&gt;
+            &lt;permanent&gt;{$params.system_ip_route_vrf_ip-route-list_permanent}&lt;/permanent&gt;
+          &lt;/ip-route-list&gt;
+          &lt;ip-route-dhcp-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_mask}&lt;/mask&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_name}&lt;/name&gt;
+          &lt;/ip-route-dhcp-list&gt;
+        &lt;/vrf&gt;
+      &lt;/route&gt;
+      &lt;vrf xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;
+        &lt;name&gt;{$params.system_ip_vrf_name}&lt;/name&gt;
+      &lt;/vrf&gt;
+      &lt;forward-protocol xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;&lt;udp&gt;
+          &lt;port&gt;{$params.system_ip_forward-protocol_udp_port}&lt;/port&gt;
+        &lt;/udp&gt;
+        &lt;vrf&gt;
+          &lt;vrfname&gt;{$params.system_ip_forward-protocol_vrf_vrfname}&lt;/vrfname&gt;
+          &lt;udp&gt;
+            &lt;port&gt;{$params.system_ip_forward-protocol_vrf_udp_port}&lt;/port&gt;
+          &lt;/udp&gt;
+        &lt;/vrf&gt;
+      &lt;/forward-protocol&gt;
+    &lt;/ip&gt;
+    &lt;ipv6&gt;
+      &lt;local&gt;
+        &lt;vrf&gt;{$params.system_ipv6_local_vrf}&lt;/vrf&gt;
+      &lt;/local&gt;
+    &lt;/ipv6&gt;
+    &lt;ethernet&gt;{$params.system_ethernet}&lt;/ethernet&gt;
+    &lt;default&gt;&lt;ip&gt;{$params.system_default_ip}&lt;/ip&gt;
+      &lt;ipv6&gt;{$params.system_default_ipv6}&lt;/ipv6&gt;
+    &lt;/default&gt;
+    &lt;bind&gt;{$params.system_bind}&lt;/bind&gt;
+    &lt;interface&gt;{$params.system_interface}&lt;/interface&gt;
+    &lt;config-expert&gt;{$params.system_config-expert}&lt;/config-expert&gt;
+    &lt;logging&gt;{$params.system_logging}&lt;/logging&gt;
+    &lt;no&gt;
+      &lt;ip xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;
+        &lt;forward-protocol&gt;
+          &lt;udp&gt;
+            &lt;port&gt;{$params.system_no_ip_forward-protocol_udp_port}&lt;/port&gt;&lt;/udp&gt;
+          &lt;vrf&gt;
+            &lt;vrfname&gt;{$params.system_no_ip_forward-protocol_vrf_vrfname}&lt;/vrfname&gt;
+            &lt;udp&gt;
+              &lt;port&gt;{$params.system_no_ip_forward-protocol_vrf_udp_port}&lt;/port&gt;
+            &lt;/udp&gt;
+          &lt;/vrf&gt;
+        &lt;/forward-protocol&gt;
+      &lt;/ip&gt;
+    &lt;/no&gt;
+    &lt;historical-stats&gt;
+      &lt;align-to-rtc&gt;{$params.system_historical-stats_align-to-rtc}&lt;/align-to-rtc&gt;
+      &lt;display-suppress-current-interval&gt;{$params.system_historical-stats_display-suppress-current-interval}&lt;/display-suppress-current-interval&gt;
+    &lt;/historical-stats&gt;
+  &lt;/system&gt;</content>
+  </example>
+  <command name="IMPORT">
+    <parser>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+        <xpath></xpath>
+      </section>
+      <lines/>
+    </parser>
+  </command>
+  <command name="CREATE">
+    <operation>&lt;system xmlns=&quot;http://oneaccess-net.com/oneos/glob&quot;&gt;
+    &lt;ip&gt;
+      &lt;local&gt;
+        &lt;vrf&gt;{$params.system_ip_local_vrf}&lt;/vrf&gt;
+      &lt;/local&gt;
+      &lt;route xmlns=&quot;http://oneaccess-net.com/oneos/routing/route&quot;&gt;
+        &lt;ip-route-if-gw-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-if-gw-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-if-gw-list_mask}&lt;/mask&gt;
+          &lt;ifname&gt;{$params.system_ip_route_ip-route-if-gw-list_ifname}&lt;/ifname&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-if-gw-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-if-gw-list_name}&lt;/name&gt;
+          &lt;tag&gt;{$params.system_ip_route_ip-route-if-gw-list_tag}&lt;/tag&gt;
+          &lt;track&gt;{$params.system_ip_route_ip-route-if-gw-list_track}&lt;/track&gt;
+          &lt;permanent&gt;{$params.system_ip_route_ip-route-if-gw-list_permanent}&lt;/permanent&gt;
+        &lt;/ip-route-if-gw-list&gt;
+        &lt;ip-route-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-list_mask}&lt;/mask&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-list_name}&lt;/name&gt;
+          &lt;tag&gt;{$params.system_ip_route_ip-route-list_tag}&lt;/tag&gt;
+          &lt;track&gt;{$params.system_ip_route_ip-route-list_track}&lt;/track&gt;
+          &lt;permanent&gt;{$params.system_ip_route_ip-route-list_permanent}&lt;/permanent&gt;&lt;/ip-route-list&gt;
+        &lt;ip-route-dhcp-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-dhcp-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-dhcp-list_mask}&lt;/mask&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-dhcp-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-dhcp-list_name}&lt;/name&gt;
+        &lt;/ip-route-dhcp-list&gt;
+        &lt;vrf xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;&lt;name&gt;{$params.system_ip_route_vrf_name}&lt;/name&gt;
+          &lt;ip-route-if-gw-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_mask}&lt;/mask&gt;
+            &lt;ifname&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_ifname}&lt;/ifname&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_name}&lt;/name&gt;&lt;tag&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_tag}&lt;/tag&gt;
+            &lt;track&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_track}&lt;/track&gt;
+            &lt;permanent&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_permanent}&lt;/permanent&gt;
+          &lt;/ip-route-if-gw-list&gt;
+          &lt;ip-route-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-list_mask}&lt;/mask&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-list_name}&lt;/name&gt;
+            &lt;tag&gt;{$params.system_ip_route_vrf_ip-route-list_tag}&lt;/tag&gt;
+            &lt;track&gt;{$params.system_ip_route_vrf_ip-route-list_track}&lt;/track&gt;
+            &lt;permanent&gt;{$params.system_ip_route_vrf_ip-route-list_permanent}&lt;/permanent&gt;
+          &lt;/ip-route-list&gt;
+          &lt;ip-route-dhcp-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_mask}&lt;/mask&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_name}&lt;/name&gt;
+          &lt;/ip-route-dhcp-list&gt;
+        &lt;/vrf&gt;
+      &lt;/route&gt;
+      &lt;vrf xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;
+        &lt;name&gt;{$params.system_ip_vrf_name}&lt;/name&gt;
+      &lt;/vrf&gt;
+      &lt;forward-protocol xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;&lt;udp&gt;
+          &lt;port&gt;{$params.system_ip_forward-protocol_udp_port}&lt;/port&gt;
+        &lt;/udp&gt;
+        &lt;vrf&gt;
+          &lt;vrfname&gt;{$params.system_ip_forward-protocol_vrf_vrfname}&lt;/vrfname&gt;
+          &lt;udp&gt;
+            &lt;port&gt;{$params.system_ip_forward-protocol_vrf_udp_port}&lt;/port&gt;
+          &lt;/udp&gt;
+        &lt;/vrf&gt;
+      &lt;/forward-protocol&gt;
+    &lt;/ip&gt;
+    &lt;ipv6&gt;
+      &lt;local&gt;
+        &lt;vrf&gt;{$params.system_ipv6_local_vrf}&lt;/vrf&gt;
+      &lt;/local&gt;
+    &lt;/ipv6&gt;
+    &lt;ethernet&gt;{$params.system_ethernet}&lt;/ethernet&gt;
+    &lt;default&gt;&lt;ip&gt;{$params.system_default_ip}&lt;/ip&gt;
+      &lt;ipv6&gt;{$params.system_default_ipv6}&lt;/ipv6&gt;
+    &lt;/default&gt;
+    &lt;bind&gt;{$params.system_bind}&lt;/bind&gt;
+    &lt;interface&gt;{$params.system_interface}&lt;/interface&gt;
+    &lt;config-expert&gt;{$params.system_config-expert}&lt;/config-expert&gt;
+    &lt;logging&gt;{$params.system_logging}&lt;/logging&gt;
+    &lt;no&gt;
+      &lt;ip xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;
+        &lt;forward-protocol&gt;
+          &lt;udp&gt;
+            &lt;port&gt;{$params.system_no_ip_forward-protocol_udp_port}&lt;/port&gt;&lt;/udp&gt;
+          &lt;vrf&gt;
+            &lt;vrfname&gt;{$params.system_no_ip_forward-protocol_vrf_vrfname}&lt;/vrfname&gt;
+            &lt;udp&gt;
+              &lt;port&gt;{$params.system_no_ip_forward-protocol_vrf_udp_port}&lt;/port&gt;
+            &lt;/udp&gt;
+          &lt;/vrf&gt;
+        &lt;/forward-protocol&gt;
+      &lt;/ip&gt;
+    &lt;/no&gt;
+    &lt;historical-stats&gt;
+      &lt;align-to-rtc&gt;{$params.system_historical-stats_align-to-rtc}&lt;/align-to-rtc&gt;
+      &lt;display-suppress-current-interval&gt;{$params.system_historical-stats_display-suppress-current-interval}&lt;/display-suppress-current-interval&gt;
+    &lt;/historical-stats&gt;
+  &lt;/system&gt;</operation>
+  </command>
+  <command name="READ"/>
+  <command name="IMPORT">
+    <operation>&lt;system xmlns=&quot;http://oneaccess-net.com/oneos/glob&quot;&gt;
+    &lt;ip&gt;
+      &lt;local&gt;
+        &lt;vrf&gt;{$params.system_ip_local_vrf}&lt;/vrf&gt;
+      &lt;/local&gt;
+      &lt;route xmlns=&quot;http://oneaccess-net.com/oneos/routing/route&quot;&gt;
+        &lt;ip-route-if-gw-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-if-gw-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-if-gw-list_mask}&lt;/mask&gt;
+          &lt;ifname&gt;{$params.system_ip_route_ip-route-if-gw-list_ifname}&lt;/ifname&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-if-gw-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-if-gw-list_name}&lt;/name&gt;
+          &lt;tag&gt;{$params.system_ip_route_ip-route-if-gw-list_tag}&lt;/tag&gt;
+          &lt;track&gt;{$params.system_ip_route_ip-route-if-gw-list_track}&lt;/track&gt;
+          &lt;permanent&gt;{$params.system_ip_route_ip-route-if-gw-list_permanent}&lt;/permanent&gt;
+        &lt;/ip-route-if-gw-list&gt;
+        &lt;ip-route-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-list_mask}&lt;/mask&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-list_name}&lt;/name&gt;
+          &lt;tag&gt;{$params.system_ip_route_ip-route-list_tag}&lt;/tag&gt;
+          &lt;track&gt;{$params.system_ip_route_ip-route-list_track}&lt;/track&gt;
+          &lt;permanent&gt;{$params.system_ip_route_ip-route-list_permanent}&lt;/permanent&gt;&lt;/ip-route-list&gt;
+        &lt;ip-route-dhcp-list xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;
+          &lt;prefix&gt;{$params.system_ip_route_ip-route-dhcp-list_prefix}&lt;/prefix&gt;
+          &lt;mask&gt;{$params.system_ip_route_ip-route-dhcp-list_mask}&lt;/mask&gt;
+          &lt;gateway&gt;{$params.system_ip_route_ip-route-dhcp-list_gateway}&lt;/gateway&gt;
+          &lt;name&gt;{$params.system_ip_route_ip-route-dhcp-list_name}&lt;/name&gt;
+        &lt;/ip-route-dhcp-list&gt;
+        &lt;vrf xmlns=&quot;http://oneaccess-net.com/oneos/routing/static&quot;&gt;&lt;name&gt;{$params.system_ip_route_vrf_name}&lt;/name&gt;
+          &lt;ip-route-if-gw-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_mask}&lt;/mask&gt;
+            &lt;ifname&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_ifname}&lt;/ifname&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_name}&lt;/name&gt;&lt;tag&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_tag}&lt;/tag&gt;
+            &lt;track&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_track}&lt;/track&gt;
+            &lt;permanent&gt;{$params.system_ip_route_vrf_ip-route-if-gw-list_permanent}&lt;/permanent&gt;
+          &lt;/ip-route-if-gw-list&gt;
+          &lt;ip-route-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-list_mask}&lt;/mask&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-list_name}&lt;/name&gt;
+            &lt;tag&gt;{$params.system_ip_route_vrf_ip-route-list_tag}&lt;/tag&gt;
+            &lt;track&gt;{$params.system_ip_route_vrf_ip-route-list_track}&lt;/track&gt;
+            &lt;permanent&gt;{$params.system_ip_route_vrf_ip-route-list_permanent}&lt;/permanent&gt;
+          &lt;/ip-route-list&gt;
+          &lt;ip-route-dhcp-list&gt;
+            &lt;prefix&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_prefix}&lt;/prefix&gt;
+            &lt;mask&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_mask}&lt;/mask&gt;
+            &lt;gateway&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_gateway}&lt;/gateway&gt;
+            &lt;name&gt;{$params.system_ip_route_vrf_ip-route-dhcp-list_name}&lt;/name&gt;
+          &lt;/ip-route-dhcp-list&gt;
+        &lt;/vrf&gt;
+      &lt;/route&gt;
+      &lt;vrf xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;
+        &lt;name&gt;{$params.system_ip_vrf_name}&lt;/name&gt;
+      &lt;/vrf&gt;
+      &lt;forward-protocol xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;&lt;udp&gt;
+          &lt;port&gt;{$params.system_ip_forward-protocol_udp_port}&lt;/port&gt;
+        &lt;/udp&gt;
+        &lt;vrf&gt;
+          &lt;vrfname&gt;{$params.system_ip_forward-protocol_vrf_vrfname}&lt;/vrfname&gt;
+          &lt;udp&gt;
+            &lt;port&gt;{$params.system_ip_forward-protocol_vrf_udp_port}&lt;/port&gt;
+          &lt;/udp&gt;
+        &lt;/vrf&gt;
+      &lt;/forward-protocol&gt;
+    &lt;/ip&gt;
+    &lt;ipv6&gt;
+      &lt;local&gt;
+        &lt;vrf&gt;{$params.system_ipv6_local_vrf}&lt;/vrf&gt;
+      &lt;/local&gt;
+    &lt;/ipv6&gt;
+    &lt;ethernet&gt;{$params.system_ethernet}&lt;/ethernet&gt;
+    &lt;default&gt;&lt;ip&gt;{$params.system_default_ip}&lt;/ip&gt;
+      &lt;ipv6&gt;{$params.system_default_ipv6}&lt;/ipv6&gt;
+    &lt;/default&gt;
+    &lt;bind&gt;{$params.system_bind}&lt;/bind&gt;
+    &lt;interface&gt;{$params.system_interface}&lt;/interface&gt;
+    &lt;config-expert&gt;{$params.system_config-expert}&lt;/config-expert&gt;
+    &lt;logging&gt;{$params.system_logging}&lt;/logging&gt;
+    &lt;no&gt;
+      &lt;ip xmlns=&quot;http://oneaccess-net.com/oneos/infrastructure/vrf&quot;&gt;
+        &lt;forward-protocol&gt;
+          &lt;udp&gt;
+            &lt;port&gt;{$params.system_no_ip_forward-protocol_udp_port}&lt;/port&gt;&lt;/udp&gt;
+          &lt;vrf&gt;
+            &lt;vrfname&gt;{$params.system_no_ip_forward-protocol_vrf_vrfname}&lt;/vrfname&gt;
+            &lt;udp&gt;
+              &lt;port&gt;{$params.system_no_ip_forward-protocol_vrf_udp_port}&lt;/port&gt;
+            &lt;/udp&gt;
+          &lt;/vrf&gt;
+        &lt;/forward-protocol&gt;
+      &lt;/ip&gt;
+    &lt;/no&gt;
+    &lt;historical-stats&gt;
+      &lt;align-to-rtc&gt;{$params.system_historical-stats_align-to-rtc}&lt;/align-to-rtc&gt;
+      &lt;display-suppress-current-interval&gt;{$params.system_historical-stats_display-suppress-current-interval}&lt;/display-suppress-current-interval&gt;
+    &lt;/historical-stats&gt;
+  &lt;/system&gt;</operation>
+  </command>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
+</ObjectDefinition>
